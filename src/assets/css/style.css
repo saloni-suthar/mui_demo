@@ -1,0 +1,334 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Poppins-Regular';
+}
+body{
+    background-color: #F8F8F8;
+    margin: 50px;
+    text-align: center;
+}
+/* font-family start */
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+/* font-family end */
+
+/* checkbox css start*/
+.checkbox-main, .radiobox-main{
+    text-align: center;
+}
+.checkbox-main .custom-check span {
+    border: 1px solid #979696;
+    border-radius: 0px;
+}
+.checkbox-main .custom-check {
+    padding: 0px;
+}
+/* checkbox css end*/
+
+/* radio css start */
+.radiobox-main .radio-customized .radio-cus-label .MuiRadio-colorDefault {
+    padding:10px 15px;
+}
+/* radio css end */
+
+
+/* button css start */
+.primary-main-component .btn-primary ,.primary-main-component .btn-primary:hover, .primary-main-component .btn-primary:focus, .primary-main-component .btn-primary.active{
+    background-color: #6E66E6;
+    border-color: #6E66E6;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+    text-transform: capitalize;
+} 
+
+.primary-main-component .hgt-width-btn{
+    min-width: 130px;
+    min-height: 50px;
+}
+/* button css end */
+
+/* dropdown header css start */
+.drop-header {
+    height: 15px;
+    width: 15px;
+    margin-right: 6px;
+}
+.header-drop-main  .drop-header-btn, .header-drop-main  .drop-header-btn:hover{
+    background-color: transparent;
+}
+.drop-header-menu .MuiPaper-rounded {
+    box-shadow: 10px 10px 20px #0000001A;
+    border: 1px solid #E5E7EB;
+    margin-top: 13px;
+    border-radius: 1px;
+}
+.drop-header {
+    height: 15px;
+    width: 15px;
+    margin-right: 6px;
+}
+
+.drop-header-menu .drop-header-menuitem {
+    font-size: 12px;
+    line-height: 14px;
+    color: #6B7280;
+    font-family: 'Poppins-Regular';
+    border-bottom: 1px solid #E5E7EB;
+    padding: 11px 16px;
+}
+
+.drop-header-menu ul {
+    padding: 0px;
+}
+.flex-drop-main .admin-header-drop {
+    font-size: 12px;
+    font-family: 'Poppins-Regular';
+    line-height: 18px;
+    color: #ffffff;
+    text-align: start;
+}
+.flex-drop-main {
+    display: flex;
+    align-items: center;
+}
+
+.drop-header-btn .admin-header-profile-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+/* dropdown header css end */
+
+/* input dropdown start */
+.dropdown-box .form-control {
+    width: 100%;
+    position: relative;
+}
+
+.dropdown-box .form-control .dropdown-select {
+    background: #F2F2F2;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+}
+
+.dropdown-select .MuiSelect-select {
+    padding: 2.5px 15px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #000;
+    font-family: 'Poppins-Regular';
+    display: flex;
+}
+
+.form-group .form-control fieldset {
+    border: 0px;
+    border-width: 0px;
+    border-color: transparent;
+}
+
+.MuiMenu-list .menuitem {
+    font-size: 14px;
+}
+
+/* input dropdown end */
+
+/* grid css start */
+.grid-main .grid-item {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+/* grid css end */
+
+/* input all css start */
+.form-group .form-control input {
+    border: 1px solid #666;
+    border-radius: 2px;
+    width: 100%;
+    padding: 3px 19px;
+    background-color: transparent;
+    height: 30px;
+}
+
+.form-group .form-control input::placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: poppins-regular;
+    opacity: 1;
+}
+.form-group .form-control .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #666;
+    border-width: 0px;
+}
+fieldset {
+    border: 0px;
+}
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+.form-control-textarea:focus-visible{
+    outline: none !important;
+}
+
+.input-box .label-input-title{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.pass_group_main{
+    position: relative;
+}
+
+.pass_group_main .pass_position {
+    margin-left: 0px;
+}
+
+.pass_group_main .custom_form_control {
+    padding-right: 0px;
+    width: 100%;
+}
+
+.pass_group_main .custom_form_control input{
+    padding-right: 45px;
+}
+
+.pass_group_main .icon_end_icon {
+    position: absolute;
+    right: 16px;
+}
+/* input all css end */
+
+/* upload sign btn css start */
+
+.title-name-upload .upload-sign-btn , .title-name-upload .upload-sign-btn:hover{
+    background-color: red;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+
+.file-upload-main-icon .icon-label-upload {
+    background: red;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+}
+.file-upload-main-icon .icon-label-upload  svg{
+    color: #fff;
+}
+/* upload sign btn css end */
+
+/* toggle switch */
+.com-toggle-btn .alignment-toggle-group {
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.alignment-toggle-group .alignment-toggle-value {
+    color: #ffff;
+    border-radius: 30px;
+    min-width: 100px;
+    border-color: red;
+}
+
+.alignment-toggle-group .alignment-toggle-value.Mui-selected{
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255 255 255);
+}
+.alignment-toggle-group .alignment-toggle-value.Mui-selected:hover{
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255 255 255);
+}
+/* toggle css  end */
+
+/* switch css start */
+
+.switch-main-details .switch-input .MuiSwitch-switchBase{
+    color:  #979696;
+}
+.switch-main-details .switch-input .MuiSwitch-track{
+    background-color: #000;
+    opacity: 1;
+}
+.switch-main-details .switch-input .MuiSwitch-switchBase.Mui-checked {
+    color: rgb(0, 0, 0);
+}
+.switch-main-details .switch-input .MuiSwitch-switchBase.Mui-checked:hover, .switch-main-details .switch-input .MuiSwitch-switchBase:hover{
+    background-color: transparent;
+}
+.switch-main-details .switch-input .Mui-checked+.MuiSwitch-track {
+   background-color: #979696;
+}
+/* switch css end */
+
+/* tab css start */
+.tab-details-content .tab-border-content .tabs-content-top  .tabs-content-title {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #000;
+}
+.tab-details-content .tab-border-content .tabs-content-top  .tabs-content-title.Mui-selected {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+.tab-details-content .tab-border-content .tabs-content-top .MuiTabs-indicator{
+    display: none;
+}
+.tab-content-main .tab-details-content .function-tab-details {
+    padding: 15px;
+    text-align: start;
+}
+/* tab css end */
+
+/* accordion css start */
+.accordion-componet .accordion-main .accordion-summary {
+    background-color: #C29958;
+    color: #fff;
+}
+
+.accordion-componet .accordion-main .accordion-details {
+    background-color: #F9F0E3;
+    text-align: start;
+}
+.accordion-componet .accordion-main.Mui-expanded {
+    margin: 0px 0px 15px 0px;
+}
+.accordion-componet .accordion-main{
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+.accordion-componet .accordion-main .accordion-summary .Mui-expanded{
+    margin: 12px 0px;
+}
+.accordion-componet .accordion-main .accordion-summary.Mui-expanded{
+    min-height: 48px;
+}
+.accordion-componet .accordion-main .expand-more-icon{
+    color: #fff;
+}
+
+/* accordion css end */
+
+/* modal css start */
+.modal-open-box .modal-open-bg {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #624c4c;
+}
+
+.modal-open-box .modal-open-bg .modal-body-open {
+    padding: 15px 30px;
+}
+
+/* modal css end */
